@@ -41,145 +41,145 @@
   </p>
 
   <h2>Create an account</h2>
+  <form>
+    <fieldset>
+      <legend>Account data</legend>
+      <label>Title:</label>
 
-  <fieldset>
-    <legend>Account data</legend>
-    <label>Title:</label>
+      <label for="gener-male">Mr</label>
+      <input type="radio"
+        name="gender"
+        id="gener-male"
+        checked
+      >
 
-    <label for="gener-male">Mr</label>
-    <input type="checkbox"
-      name="gender"
-      id="gener-male"
-      checked
-    >
+      <label for="geneder-female">Ms</label>
+      <input type="radio"
+        name="gender"
+        id="gender-female"
+      >
 
-    <label for="geneder-female">Ms</label>
-    <input type="checkbox"
-      name="gender"
-      id="gender-female"
-    >
+      <label for="gender-unspecified">Unspecified</label>
+      <input type="radio"
+        name="gender"
+        id="gender-unspecified">
 
-    <label for="gender-unspecified">Unspecified</label>
-    <input type="checkbox"
-      name="gender"
-      id="gender-unspecified">
+        <br><br>
+
+      <label for="name">*Name:</label>
+      <input type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        required
+      >
+
+      <label for="surname">*Surname:</label>
+      <input type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
+      >
+      <br><br>
+
+      <label for="username">*Username:</label>
+      <input type="text"
+        name="username"
+        id="username"
+        placeholder="Username"
+        required
+      >
+      <br><br>
+
+      <label for="email">*Email:</label>
+      <input type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      >
+      <br><br>
+
+      <label for="password">*Password:</label>
+      <input type="password"
+        name="password"
+        id="password"
+        placeholder="Password"
+        required
+      >
+      <br><br>
+
+      <label for="confirm-password">Confirm Password</label>
+      <input type="password"
+        name="confirm-password"
+        id="confirm-password"
+        placeholder="Confirm Password"
+        required
+      >
+      <br>
+
+      <input type="checkbox"
+        name="consent"
+        id="consent"
+      >
+      <label for="consent">*You are required to agree to the 
+        <a href="https://google.com" 
+        title="terms&conditions">terms and conditions</a>
+      </label>
 
       <br><br>
 
-    <label for="name">*Name:</label>
-    <input type="text"
-      name="name"
-      id="name"
-      placeholder="Name"
-      required
-    >
+      <input type="checkbox"
+        name="consent-emails"
+        id="consent-emails"
+      >
+      <label for="consent-emails">Agree to this and <i>we wil send you emails.</i>
+      </label>
 
-    <label for="surname">*Surname:</label>
-    <input type="text"
-      name="surname"
-      id="surname"
-      placeholder="Surname"
-      required
-    >
-    <br><br>
+      <br><br>
 
-    <label for="username">*Username:</label>
-    <input type="text"
-      name="username"
-      id="username"
-      placeholder="Username"
-      required
-    >
-    <br><br>
+      <input type="checkbox"
+        name="GDPR"
+        id="GDPR"
+      >
+      <label for="GDPR">GDPR generic consent?</label>
 
-    <label for="email">*Email:</label>
-    <input type="email"
-      name="email"
-      id="email"
-      placeholder="Email"
-      required
-    >
-    <br><br>
+      <br><br>
 
-    <label for="password">*Password:</label>
-    <input type="password"
-      name="password"
-      id="password"
-      placeholder="Password"
-      required
-    >
-    <br><br>
-
-    <label for="confirm-password">Confirm Password</label>
-    <input type="password"
-      name="confirm-password"
-      id="confirm-password"
-      placeholder="Confirm Password"
-      required
-    >
-    <br>
-
-    <input type="checkbox"
-      name="consent"
-      id="consent"
-    >
-    <label for="consent">*You are required to agree to the 
-      <a href="https://google.com" 
-      title="terms&conditions">terms and conditions</a>
-    </label>
+      <button type="submit">Create Account</button>
+      <button type="reset">Reset</button>
+    </fieldset>
 
     <br><br>
 
-    <input type="checkbox"
-      name="consent-emails"
-      id="consent-emails"
-    >
-    <label for="consent-emails">Agree to this and <i>we wil send you emails.</i>
-    </label>
+    <img src="images/thank_you.jpg" alt="Thak You">
 
-    <br><br>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+      qui officia deserunt mollit anim id est laborum.
+    </p>
 
-    <input type="checkbox"
-      name="GDPR"
-      id="GDPR"
-    >
-    <label for="GDPR">GDPR generic consent?</label>
-
-    <br><br>
-
-    <button type="submit">Create Account</button>
-    <button type="reset">Reset</button>
-  </fieldset>
-
-  <br><br>
-
-  <img src="images/thank_you.jpg" alt="Thak You">
-
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-    qui officia deserunt mollit anim id est laborum.
-  </p>
-
-  <p>
-    <a href="https://google.com"
-      title="Home"
-    >Home</a> |
-    <a href="https://google.com"
-      title="Create account"
-    >Create account</a> |
-    <a href="https://google.com"
-      title="Your account"
-    >Your account</a> |
-    <a href="https://google.com"
-      title="Custmore service"
-    >Customer service</a> |
-    <a href="https://google.com"
-      title="Contact"
-    >Contact</a>
-  </p>
-
+    <p>
+      <a href="https://google.com"
+        title="Home"
+      >Home</a> |
+      <a href="https://google.com"
+        title="Create account"
+      >Create account</a> |
+      <a href="https://google.com"
+        title="Your account"
+      >Your account</a> |
+      <a href="https://google.com"
+        title="Custmore service"
+      >Customer service</a> |
+      <a href="https://google.com"
+        title="Contact"
+      >Contact</a>
+    </p>
+  </form>
 </body>
 </html>
