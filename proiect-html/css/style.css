@@ -47,8 +47,94 @@ table {
 	border-spacing: 0;
 }
 
+@font-face {
+  font-family: 'robotobold';
+  src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoitalic';
+  src: url('../fonts/roboto-italic-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body {
-  color: #707070;
+	color: #707070;
+	font-family: 'robotoregular';
+	font-size: 16px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.header-top {
+	margin: 25px 0 0 0;
+}
+
+.header-contact {
+	float: left;
+}
+
+.header-controls {
+	float: right;
+}
+
+.header-bottom .logo-container {
+	text-align: center;
+}
+
+.header-bottom .logo {
+	display: inline-block;
+}
+
+.nav-main ul {
+	text-align: center;
+}
+
+.nav-main ul li {
+	display: inline-block;
+}
+
+.nav-main ul li a {
+	 color: #707070;
+	 text-transform: uppercase;
+	 text-decoration: none;
+	 display: inline-block;
+	 margin: 0 2px;
+	 padding: 18px;
+	 border-radius: 35px;
+	 transition: background-color 0.2s linear, color 0.2s linear;
+}
+
+.nav-main ul li a:hover {
+	background: #FF6B6B;
+	color: #fff;
+}
+
+.nav-main ul .active a {
+	text-decoration: underline solid #FF6B6B;
 }
 
 .cart .cart-count {
