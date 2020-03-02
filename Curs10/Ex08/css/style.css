@@ -10,3 +10,17 @@ input[type="radio"]:checked + label {
   background-color: green;
   display:block;
 }
+
+select option:checked {
+  color: red;
+  font-weight: bold;
+  display: block;
+}
+
+input[type="checkbox"] + label {
+  color: lightpink;
+}
+
+input[type="radio"] + label {
+  background-color: lightpink; 
+}

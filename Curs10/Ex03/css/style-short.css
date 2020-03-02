@@ -11,7 +11,7 @@
   text-decoration: underline solid lawngreen;
 }
 
-.pane-long .container .para {
+.pane-short .container .para {
   text-decoration: underline wavy darkblue;
   margin: 5px;
 }

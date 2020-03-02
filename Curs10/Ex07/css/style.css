@@ -28,3 +28,26 @@
   top:8px;
   right: 3px;
 }
+
+.my-second-list a::before {
+  content:"";
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: green;
+  border-radius: 10px;
+  transform: skew(0,15deg);
+  position: absolute;
+  top: 8px;
+  left:3px;
+}
+
+.my-second-list a::after {
+  counter-reset: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-attachment: purple;
+  transform: rotate(45deg);
+  position: absolute;
+}
