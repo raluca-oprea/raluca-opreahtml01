@@ -29,25 +29,32 @@
   right: 3px;
 }
 
+.my-second-list a {
+  display: block;
+  padding: 0 15px;
+  position: relative;
+}
+
 .my-second-list a::before {
   content:"";
   display: block;
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 8px;
   background-color: green;
-  border-radius: 10px;
-  transform: skew(0,15deg);
+  border-radius: 2px/4px;
   position: absolute;
-  top: 8px;
+  top: 5px;
   left:3px;
 }
 
 .my-second-list a::after {
-  counter-reset: "";
+  content: "";
   display: block;
   width: 5px;
   height: 5px;
-  background-attachment: purple;
-  transform: rotate(45deg);
+  background-color: purple;
+  transform: rotate(55deg) skew(25deg);
   position: absolute;
+  top: 8px;
+  right: 3px;
 }

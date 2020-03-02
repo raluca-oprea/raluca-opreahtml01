@@ -14,7 +14,6 @@ input[type="radio"]:checked + label {
 select option:checked {
   color: red;
   font-weight: bold;
-  display: block;
 }
 
 input[type="checkbox"] + label {
