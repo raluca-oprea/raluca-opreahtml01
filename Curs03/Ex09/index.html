@@ -5,48 +5,65 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">">
 </head>
 <body>
-    <form>
-        <label for="name">Name</label>
-        <input type="text" 
-            name="name" 
-            id="name"
-            maxlength="30"
-            minlength="5"
-            required
-            >
-        <br>
-
-        <label for="surname">Surname</label>
-        <input type="text"
-            name="surname"
-            id="surname"
-            minlength="5"
-            maxlength="30"
-            required
-            >
-        <br>
-
-        <label for="message">Mesaj</label>
-        <textarea
-            name="message"
-            id="message"
-            rows="4"
-            cols="30"
-            ></textarea>
-        <br>
-
-        <label for="details">Detalii</label>
-        <textarea
-            name="details"
-            id="details"
-            cols="30"
-            rows="4"
-            ></textarea>
-
-        <br><br>
-        <button type="submit">Trimite</button>
-    </form>
+    <div class="container mt-4">
+        <form action="">
+            <div class="row">
+                <div class="col">
+                    <label for="name">Name</label>
+                </div>
+                <label for="name">Name</label>
+                <input type="text" 
+                    name="name" 
+                    id="name"
+                    maxlength="30"
+                    minlength="5"
+                    required
+                    >
+            </div>
+            <div>
+                <div class="col">
+                    <label for="surname">Surname</label>
+                </div>
+                <input type="text"
+                    name="surname"
+                    id="surname"
+                    minlength="5"
+                    maxlength="30"
+                    required
+                    >
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="message">Mesaj</label>
+                </div>
+                <textarea
+                    name="message"
+                    id="message"
+                    rows="4"
+                    cols="30"
+                    ></textarea>
+            </div>
+            <div class="row">
+                
+                <div class="col">
+                    <label for="details">Detalii</label>
+                </div>
+                <textarea
+                    name="details"
+                    id="details"
+                    cols="30"
+                    rows="4"
+                    ></textarea>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button type="submit" class="btn btn-primary">Trimite</button>
+                </div>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
